@@ -1,0 +1,15 @@
+//! In Bootstrap : always import functions before variables ... otherwise some features won't work
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+//? add your colors to Bootstrap's map
+$red:#B02939;
+$light-gray:#EEEFF0;
+
+$custom-colors : (
+    "red" : $red ,
+    "bright" : $light-gray ,
+);
+$theme-colors : map-merge($theme-colors , $custom-colors);
+
+

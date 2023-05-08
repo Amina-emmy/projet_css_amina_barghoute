@@ -1,0 +1,43 @@
+header{
+    height: 100vh;
+    background-image:url('../../../../public/images/banner1.jpg');
+    background-size: cover;
+    background-color: rgba(12, 12, 12, 0.911);
+    background-blend-mode: darken;
+    nav{
+        a{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        a:hover{
+            background-color: $red;
+            margin: 0;
+        }
+    }
+}
+//& the text in the middle of the header + buttons
+.header-text{
+    line-height: 65px;
+    font-family: "courgette";
+    font-size: 50px;
+    .span-1{
+        font-size: 65px;
+    }
+    .span-2{
+        font-size:62px;
+    }
+}
+.text-btn{
+    padding: 12px;
+    font-size: 13px;
+    font-family: "roboto-regular";
+}
+//! a try :  the header's bottom decoration
+// .deco-bottom-header{
+//     // background-color: blueviolet;
+//     width:auto;
+//     background-image: url('../../../../public/images/bottom_decoration_img.png');
+    
+//     background-repeat:repeat-x;
+    
+// }
