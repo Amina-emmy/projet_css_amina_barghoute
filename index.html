@@ -6,121 +6,179 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
-    <title>Document</title>
+    <title>Site Chef</title>
 </head>
 
 <body>
-    <!-- //& header -->
-    <header
-        class="d-lg-flex d-md-flex flex-lg-column flex-md-column align-items-lg-center justify-content-lg-center  align-items-md-center justify-content-md-center">
-        <nav class="container-fluid d-lg-flex align-items-lg-center justify-content-lg-evenly position-absolute top-0 pt-lg-4 gap-lg-4
+    <!-- & header -->
+    <header>
+        <div class=" d-lg-flex d-md-flex flex-lg-column flex-md-column justify-content-lg-center  align-items-md-center justify-content-md-center">
+            <nav class="container-fluid d-lg-flex align-items-lg-center justify-content-lg-evenly pt-lg-4 gap-lg-4
         d-md-flex align-items-md-center justify-content-md-between pt-md-4 gap-md-3">
-            <div>
-                <ul class="nav border-bottom border-top p-lg-1 gap-lg-3 gap-md-1">
-                    <li class="nav-item"><a class="nav-link text-light" href=""> HOME</a></li>
-                    <li class="nav-item"><a class="nav-link text-light" href=""> ABOUT US</a></li>
-                    <li class="nav-item"><a class="nav-link text-light" href=""> MENU LIST</a></li>
-                    <li class="nav-item"><a class="nav-link text-light" href=""> TEAM</a></li>
-                </ul>
+                <div>
+                    <ul
+                        class="container-md d-md-flex justify-content-md-center nav border-bottom border-top p-lg-1 gap-lg-3 gap-md-1">
+                        <li class="nav-item"><a class="nav-link text-light" href=""> HOME</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href=""> ABOUT US</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href=""> MENU LIST</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href=""> TEAM</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./public/images/logo.png" alt="logo">
+                </div>
+                <div>
+                    <ul
+                        class="container-md d-md-flex justify-content-md-center nav border-bottom border-top p-lg-1 gap-lg-3  gap-md-1">
+                        <li class="nav-item"><a class="nav-link text-light" href=""> RESERVATION</a> </li>
+                        <li class="nav-item"><a class="nav-link text-light" href=""> BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href=""> TESTIMONIALS</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href=""> CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <!--^ the text in the middle-->
+            <div class="d-md-flex justify-content-md-center align-items-md-center mt-lg-5 ">
+                <p class="header-text text-light text-center pt-lg-5 pb-lg-5 pt-md-5 pb-md-5">
+                    whatever your <span class="span-1"> OCCASION,</span> <br>
+                    <span class="span-1 text-red">TASTE</span> <span class="span-2"> makes</span> it one <br>
+                    to <span class="span-2">remember!</span>
+                </p>
             </div>
+            <!--^ the two buttons-->
             <div>
-                <img src="./public/images/logo.png" alt="logo">
+                <form action="">
+                    <button class="btn btn-bright rounded-5 px-lg-4 me-lg-3 me-md-3 text-btn">
+                        PURCHASE THEME</button>
+                    <button class="btn btn-red text-light rounded-5 px-lg-4 text-btn">
+                        LEARN MORE</button>
+                </form>
             </div>
-            <div>
-                <ul class="nav border-bottom border-top p-lg-1 gap-lg-3  gap-md-1">
-                    <li class="nav-item"><a class="nav-link text-light" href=""> RESERVATION</a> </li>
-                    <li class="nav-item"><a class="nav-link text-light" href=""> BLOG</a></li>
-                    <li class="nav-item"><a class="nav-link text-light" href=""> TESTIMONIALS</a></li>
-                    <li class="nav-item"><a class="nav-link text-light" href=""> CONTACT US</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="d-md-flex justify-content-md-center align-items-md-center">
-            <p class="header-text text-light text-center pt-lg-5 pb-lg-5 pt-md-5 pb-md-5">
-                whatever your <span class="span-1"> OCCASION,</span> <br>
-                <span class="span-1 text-red">TASTE</span> <span class="span-2"> makes</span> it one <br>
-                to <span class="span-2">remember!</span>
-            </p>
-        </div>
-        <div>
-            <form action="">
-                <button class="btn btn-bright rounded-5 px-lg-4 me-lg-3 me-md-3 text-btn">
-                    PURCHASE THEME</button>
-                <button class="btn btn-red text-light rounded-5 px-lg-4 text-btn">
-                    LEARN MORE</button>
-            </form>
-        </div>
-
+        </div>  
+        
+   <div class="deco-bottom-header"></div>     
     </header>
 
-    <!-- //! a try : the header's bottom decoration -->
-    <!-- <div class="deco-bottom-header">
-        <img src="./public/images/bottom_decoration_img.png" alt="" srcset="">
-    </div> -->
-    <!-- //* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!-- //& OUR story + OUR menu -->
-    <section class="container d-lg-flex justify-content-lg-center pb-lg-5 pt-lg-5 bg-petitdessin">
+
+    <!-- * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- & OUR story + OUR menu -->
+    <section
+        class="container d-lg-flex d-md-flex justify-content-lg-center justify-content-md-center py-lg-5 py-md-4 bg-petitdessin">
         <div class="border cadre">
-            <!-- //^ OUR Story -->
-            <div class="d-lg-flex justify-content-lg-between">
+            <!-- ^ OUR Story -->
+            <div class="d-lg-flex justify-content-lg-between d-md-flex justify-content-md-center">
                 <div>
                     <img src="./public/images/box-left-top.png" alt="" srcset="">
                 </div>
-                <div class="text-center title-line">
+                <div class="text-center text-md-center title-line">
                     <p class="our-1"><span class="our text-red">OUR</span> Story</p>
-                    <img src="./public/images/decoration_line.png" alt="line" class="">
+                    <img src="./public/images/decoration_line.png" alt="line" width="352px">
                 </div>
                 <div>
                     <img src="./public/images/box-right-top.png" alt="">
                 </div>
             </div>
-            <div class="container w-50  text-center d-lg-flex justify-content-lg-center pt-lg-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ea voluptatem maiores veniam
+            <div class=" text-center d-lg-flex justify-content-lg-center pt-lg-4">
+                <p class="container p-ourstory">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ea
+                    voluptatem maiores veniam
                     totam quibusdam dolorem alias eum maxime, cupiditate, in corporis tempora, laborum nesciunt
                     incidunt! Amet porro natus expedita. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Dignissimos vel corporis delectus sequi non asperiores et sunt libero deleniti error explicabo,
                     inventore totam molestiae repellendus incidunt eaque doloremque ex unde perferendis perspiciatis
                     voluptates odio dolorum harum dolorem? Dolore, minus Lorem ipsum dolor,Veniam.</p>
             </div>
-            <!-- //^ OUR Menu List -->
+            <!-- ^ OUR Menu List -->
             <div class="text-center title-line">
                 <p class="our-1"><span class="our text-red">OUR</span> Menu List</p>
                 <img src="./public/images/decoration_line.png" alt="line" class="">
             </div>
-
-
-
-
+            <div class="d-flex mt-lg-3 ">
+                <div class="container w-25 nav text-center flex-column border-end nav-pills m-0" id="v-pills-tab"
+                    role="tablist" aria-orientation="vertical">
+                    <a class=" icon-hover nav-link text-dark active border-bottom " id="v-pills-home-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
+                        aria-controls="v-pills-home" aria-selected="true">
+                        <i class="fa-solid fa-mug-hot fa-3x" style="color: #EEEFF0;"></i>
+                        <p class="menu-meals">BreakFast</p>
+                    </a>
+                    <a class="nav-link text-dark border-bottom " id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">
+                        <i class="fa-solid fa-utensils fa-3x" style="color: #EEEFF0;"></i>
+                        <p class="menu-meals">Lunch</p>
+                    </a>
+                    <a class="nav-link text-dark border-bottom " id="v-pills-messages-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                        aria-selected="false">
+                        <i class="fa-solid fa-candy-cane fa-3x" style="color: #EEEFF0;"></i>
+                        <p class="menu-meals">Snacks</p>
+                    </a>
+                    <a class="nav-link text-dark border-bottom " id="v-pills-settings-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                        aria-selected="false">
+                        <i class="fa-solid fa-bowl-rice fa-3x" style="color: #EEEFF0"></i>
+                        <p class="menu-meals">Dinner</p>
+                    </a>
+                </div>
+                <div class="tab-content container" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                </div>
+            </div>
+            <div class="d-lg-flex justify-content-lg-between pt-2 d-md-flex justify-content-md-center">
+                <div>
+                    <img src="./public/images/box-bottom-left.png" alt="" srcset="">
+                </div>
+                <div class="d-lg-flex align-items-lg-center d-md-flex align-items-md-end pb-md-4 ">
+                    <img src="./public/images/decoration_line.png" alt="line" width="352px">
+                </div>
+                <div>
+                    <img src="./public/images/box-bottom_right.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
-    <!-- //* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!-- //& MEET our chef -->
+    <!-- * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- & MEET our chef -->
     <section class="team-chef pt-lg-4">
         <div class="text-center title-line pb-lg-5">
             <p class="our-1 text-light"><span class="our text-red">MEET</span> Our Chef</p>
             <img src="./public/images/decoration_line.png" alt="line" class="">
         </div>
-        <div class="text-center p-lg-3 d-lg-flex justify-content-lg-evenly">
-            <div>
-                <img src="./public/images/chef1.png" alt="chef1" class="border-bottom ">
-                <p class="text-light">lorem ipsum</p>
+        <div
+            class="text-center p-lg-3 d-lg-flex d-md-flex justify-content-lg-evenly justify-content-md-center gap-md-5 gap-lg-0">
+            <div class="d-lg-flex justify-content-lg-around gap-lg-5 pt-md-3">
+                <div>
+                    <img src="./public/images/chef1.png" alt="chef1" class="border-bottom ">
+                    <p class="text-light">lorem ipsum</p>
+                </div>
+                <div>
+                    <img src="./public/images/chef2.png" alt="chef1" class="border-bottom">
+                    <p class="text-light">lorem ipsum</p>
+                </div>
             </div>
-            <div>
-                <img src="./public/images/chef2.png" alt="chef1" class="border-bottom ">
-                <p class="text-light">lorem ipsum</p>
-            </div>
-            <div>
-                <img src="./public/images/chef3.png" alt="chef1" class="border-bottom ">
-                <p class="text-light">lorem ipsum</p>
-            </div>
-            <div>
-                <img src="./public/images/chef4.png" alt="chef1" class="border-bottom ">
-                <p class="text-light">lorem ipsum</p>
+            <div class="d-lg-flex justify-content-lg-between gap-lg-5 pt-md-3">
+                <div>
+                    <img src="./public/images/chef3.png" alt="chef1" class="border-bottom ">
+                    <p class="text-light">lorem ipsum</p>
+                </div>
+                <div>
+                    <img src="./public/images/chef4.png" alt="chef1" class="border-bottom ">
+                    <p class="text-light">lorem ipsum</p>
+                </div>
             </div>
         </div>
     </section>
-    <!-- //* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!-- //& BOOK your Table -->
+    <!--* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- & BOOK your Table + our Blog -->
+    <!--^ BOOK your Table-->
     <section class="container d-lg-flex justify-content-lg-center pb-lg-5 pt-lg-5 bg-petitdessin">
         <div class="border cadre">
             <div class="d-lg-flex justify-content-lg-between">
@@ -135,8 +193,275 @@
                     <img src="./public/images/box-right-top-grey.png" alt="">
                 </div>
             </div>
+            <!--? formulaire -->
+            <div class="container mt-lg-5 d-lg-flex flex-lg-column align-items-lg-center bk-table border rounded-4">
+                <p class="text-light text-center pt-lg-5 pb-lg-3">For any query please call us at : <span class="fs-5">+
+                        91-1234567890</span></p>
+                <form class="d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
+                    <div class="container d-lg-flex gap-lg-4"> <!-- ~ the div parent of the inputs-->
+                        <div>
+                            <input type="text" class="form-control m-lg-2 rounded-4 p-lg-2"
+                                placeholder="Enter Full Name" name="name">
+                            <input type="tel" class="form-control m-lg-2 rounded-4 p-lg-2" placeholder="Phone Number"
+                                name="num">
+                            <input type="text" class="form-control m-lg-2 rounded-4 p-lg-2" placeholder="Date"
+                                name="date">
+                            <div class="input-group m-lg-2">
+                                <input class="dropdown-toggle form-control rounded-4 p-lg-2" data-bs-toggle="dropdown"
+                                    placeholder="Occasion">
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Birthday</a></li>
+                                    <li><a class="dropdown-item" href="#">Gathering</a></li>
+                                    <li><a class="dropdown-item" href="#">Graduation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="text" class="form-control m-lg-2 rounded-4 p-lg-2" placeholder="Enter Id"
+                                name="Id">
+                            <div class="input-group m-lg-2">
+                                <input class="dropdown-toggle form-control rounded-4 p-lg-2" data-bs-toggle="dropdown"
+                                    placeholder="No Of Person">
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">2</a></li>
+                                    <li><a class="dropdown-item" href="#">4</a></li>
+                                    <li><a class="dropdown-item" href="#">6</a></li>
+                                    <li><a class="dropdown-item" href="#">10</a></li>
+                                    <li><a class="dropdown-item" href="#">More than 10</a></li>
+                                </ul>
+                            </div>
+                            <input type="text" class="form-control m-lg-2 rounded-4 p-lg-2" placeholder="Time"
+                                name="time">
+                            <div class="input-group m-lg-2">
+                                <input class="dropdown-toggle form-control rounded-4 p-lg-2" data-bs-toggle="dropdown"
+                                    placeholder="Cuisine">
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">korean</a></li>
+                                    <li><a class="dropdown-item" href="#">italian</a></li>
+                                    <li><a class="dropdown-item" href="#">moroccan</a></li>
+                                    <li><a class="dropdown-item" href="#">japanese</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-lg-4"><!--//~ same style as the button in the header-->
+                        <button class="btn btn-red text-light rounded-5 px-lg-4 text-btn mt-lg-4 mb-lg-3">
+                            BOOK NOW</button>
+                    </div>
+                </form>
+            </div>
+            <!-- ^ Our Blog-->
+            <div class="text-center title-line pt-lg-5">
+                <p class="our-1"><span class="our text-red">OUR</span>Blog</p>
+                <img src="./public/images/decoration_line.png" alt="line" class="pt-lg-1">
+            </div>
+            <div class="container d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
+                <div class="container d-lg-flex mt-lg-5 card-blog">
+                    <div class="container position-relative">
+                        <div>
+                            <img class="border border-5 rounded-4 border-bright" src="./public/images/blog_img1.jpg"
+                                alt="" width="360px">
+                            <p class="ms-lg-4 mt-lg-5"><b>lorem ipsum</b></P>
+                            <P class="ms-lg-4 opacity-75 para-blog">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Incidunt minus dignissimos doloremque.
+                            </p>
+                            <div class="text-bright text-center ms-4 position-absolute top-50">
+                                <p class="redp-blog py-lg-2 bg-red rounded-2"><span class="numbers">12</span>April 2017
+                                    <span class="numbers">/20 </span>Comments <span class="numbers">/ 35</span> Likes
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container position-relative">
+                        <div>
+                            <img class="border border-5 rounded-4 border-bright" src="./public/images/blog_img2.jpg"
+                                alt="" width="360px">
+                            <p class="ms-lg-4 mt-lg-5"><b>lorem ipsum</b></p>
+                            <p class="ms-lg-4 opacity-75 para-blog">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Incidunt minus dignissimos doloremque.
+                            </p>
+                        </div>
+                        <div class="text-bright text-center ms-4 position-absolute top-50">
+                            <p class="redp-blog py-lg-2 bg-red rounded-2"><span class="numbers">12</span>April 2017<span
+                                    class="numbers">/
+                                    20</span>Comments<span class="numbers">/ 35</span>Likes</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form action="">
+                        <button class="btn btn-red text-light rounded-5 px-lg-4 text-btn mt-lg-4 mb-lg-3">
+                            KNOW MORE
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="d-lg-flex justify-content-lg-between">
+                <div>
+                    <img src="./public/images/box-bottom-left-grey.png" alt="" srcset="">
+                </div>
+
+                <div>
+                    <img src="./public/images/box-bottom_right-grey.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
+    <!--* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- & CLIENT Testimonials -->
+    <section class="client">
+        <div class="text-center text-light title-line p-lg-5">
+            <p class="our-1"><span class="our text-red">CLIENT </span> Testimonials</p>
+            <img src="./public/images/decoration_line.png" alt="line" class="pt-lg-1">
+        </div>
+        <div class="container d-lg-flex justify-content-lg-evenly gap-lg-4 p-lg-5">
+            <div>
+                <img class=" border border-5 rounded-circle" src="./public/images/testimonial1.jpg" alt="woman"
+                    width="150px">
+            </div>
+            <div class="border rounded-3 border-opacity-25 text-light ps-lg-2 py-lg-2 lh-sm card-client">
+                <h5>lorem ipsum</h5>
+                <p class="text-red">Manager</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia repellendus repellat ea harum ab.
+                </p>
+            </div>
+            <div class="border rounded-3 border-opacity-25 text-light ps-lg-2 py-lg-2 lh-sm card-client">
+                <h5>lorem ipsum</h5>
+                <p class="text-red">Manager</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia repellendus repellat ea harum ab.
+                </p>
+            </div>
+            <div>
+                <img class=" border border-5 rounded-circle" src="./public/images/testimonial1.jpg" alt="woman"
+                    width="150px">
+            </div>
+        </div>
+    </section>
+    <!--* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- & OUR Contact -->
+    <section class="bg-petitdessin pb-lg-5">
+        <div class="text-center text-light title-line p-lg-5">
+            <p class="our-1 text-dark"><span class="our text-red">OUR</span> Contact</p>
+            <img src="./public/images/decoration_line.png" alt="line" class="pt-lg-1">
+        </div>
+        <div class="container text-center text-light bg-red rounded-4 pt-lg-4 contact-card">
+            <div class="border-bottom border-light border-opacity-25">
+                <i class="fa-solid fa-location-dot fa-3x pb-lg-2 pt-lg-2" style="color: #ffffff;"></i>
+                <p class="text-contact"> Nulla ducimus quas,Lorem ipsum dolor sit. Explicabo praesentium qui repellat.
+                </p>
+            </div>
+            <div class="border-bottom border-light border-opacity-25">
+                <i class="fa-solid fa-phone fa-3x pb-lg-2 pt-lg-3" style="color: #ffffff;"></i>
+                <p class="text-contact">+91-1234567890</p>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope fa-3x pt-lg-3" style="color: #ffffff;"></i>
+                <p class="text-contact pb-lg-4">abc@abc.com</p>
+            </div>
+        </div>
+    </section>
+    <!--* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- & Footer -->
+
+    <footer>
+        <div class="deco-ftr"></div>
+        <div class=" py-lg-5 px-lg-5 text-light d-lg-flex d-lg-flex justify-content-lg-center">
+            <div class="part-ftr">
+                <h5>ABOUT US</h5>
+                <p class="p-footer pt-lg-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quasi labore
+                    illo magnam, sed
+                    deleniti iusto ratione suscipit ex ea. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dignissimos adipisci ipsa quia.</p>
+                <div class="d-lg-flex gap-lg-4">
+                    <div>
+                        <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-google-plus-g fa-lg" style="color: #ffffff;"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-pinterest-p fa-lg" style="color: #ffffff;"></i>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-linkedin-in fa-lg" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="part-ftr ">
+                <h5>INSTAGRAM</h5>
+                <div class=" pt-lg-2">
+                    <div class="d-lg-flex gap-lg-2 pb-lg-2 pt-lg-2">
+                        <div>
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="" width="75px">
+                        </div>
+                        <div>
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="" width="75px">
+                        </div>
+                        <div>
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="" width="75px">
+                        </div>
+                        <div>
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="" width="75px">
+                        </div>
+                    </div>
+                    <div class="d-lg-flex gap-lg-2">
+                        <div>
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="" width="75px">
+                        </div>
+                        <div>
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="" width="75px">
+                        </div>
+                        <div>
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="" width="75px">
+                        </div>
+                        <div>
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="" width="75px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part-ftr">
+                <h5>POPULAR TAGS</h5>
+                <div class="">
+                    <form action="" class="d-lg-flex flex-lg-wrap gap-lg-2">
+                        <div> <button
+                                class="btn btn-red text-light border border-light rounded-5 px-lg-4 py-lg-2 text-btn mb-lg-2">
+                                Restaurant</button></div>
+                        <div> <button
+                                class="btn btn-red text-light border border-light rounded-5 px-lg-4 py-lg-2 text-btn mb-lg-2">
+                                Responsive Design</button></div>
+                        <div> <button
+                                class="btn btn-red text-light border border-light rounded-5 px-lg-4 py-lg-2 text-btn mb-lg-2">
+                                Hotel</button></div>
+                        <div> <button
+                                class="btn btn-red text-light border border-light rounded-5 px-lg-4 py-lg-2 text-btn mb-lg-2">
+                                Blog Section</button></div>
+                        <div> <button
+                                class="btn btn-red text-light border border-light rounded-5 px-lg-4 py-lg-2 text-btn mb-lg-2">
+                                SEO</button></div>
+                        <div> <button
+                                class="btn btn-red text-light border border-light rounded-5 px-lg-4 py-lg-2 text-btn mb-lg-2">
+                                Cuisine</button></div>
+                        <div> <button
+                                class="btn btn-red text-light border border-light rounded-5 px-lg-4 py-lg-2 text-btn mb-lg-2">
+                                Graphic</button></div>
+                        <div> <button
+                                class="btn btn-red text-light border border-light rounded-5 px-lg-4 py-lg-2 text-btn mb-lg-2">
+                                Food</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="bg-red div-ftr p-0"></div>
+
 
 
 

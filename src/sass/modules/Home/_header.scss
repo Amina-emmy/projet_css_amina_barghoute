@@ -32,12 +32,14 @@ header{
     font-size: 13px;
     font-family: "roboto-regular";
 }
-//! a try :  the header's bottom decoration
-// .deco-bottom-header{
-//     // background-color: blueviolet;
-//     width:auto;
-//     background-image: url('../../../../public/images/bottom_decoration_img.png');
-    
-//     background-repeat:repeat-x;
-    
-// }
+//! the header's bottom decoration
+.deco-bottom-header{
+    margin-top:115px;
+    background-image: url('../../../../public/images/bottom_decoration_img.png');
+    height: 2vh;  
+}
+@media screen and (min-width:426px) and (max-width:768px) {
+    .deco-bottom-header{
+        margin-top:78px;
+    }
+}
