@@ -19,3 +19,8 @@ footer{
     height:12vh ;
     max-width: 100vw;
 }
+@media screen and (min-width:426px) and (max-width:768px) {
+    .part-ftr{
+        width: 50%;
+    } 
+}

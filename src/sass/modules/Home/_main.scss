@@ -1,94 +1,124 @@
 //& OUR story + OUR menu 
-.bg-petitdessin{
+.bg-petitdessin {
     background-image: url('../../../../public/images/main_bg.jpg');
-    height:auto;
+    height: auto;
     max-width: 100vw;
     background-repeat: repeat;
 }
-.cadre{
+
+.cadre {
     background-color: white;
-    height:100%;
+    height: 100%;
     width: 80%;
 }
-.p-ourstory{
+
+.p-ourstory {
     width: 60%;
 }
-.icon-hover:hover{
-       color: $red;
+
+.icon-hover:hover {
+    color: $red;
 }
+
 //? Style of the titles like "OUR Story"
-.title-line{
+.title-line {
     font-family: "courgette";
     line-height: 4px;
 }
-.our-1{
+
+.our-1 {
     padding-top: 60px;
     font-size: 35px;
 }
-.our{
+
+.our {
     font-size: 50px;
 }
-.menu-meals{
+
+.menu-meals {
     font-family: "courgette";
     font-size: 20px;
     line-height: 35px;
 }
+
 @media screen and (min-width:426px) and (max-width:768px) {
-    .our-1{
+    .our-1 {
         padding-top: 60px;
         font-size: 25px;
     }
-    .our{
+
+    .our {
         font-size: 35px;
     }
-    
+
 }
+
 //* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //& MEET our chef
-.team-chef{
+.team-chef {
     background-image: url('../../../../public/images/team_background.jpg');
     background-position: center;
     background-size: cover;
     background-color: rgba(10, 6, 6, 0.877);
     background-blend-mode: darken;
 }
+
 //& BOOK your Table
-.bk-table{
-    font-family:"roboto-regular";
+.bk-table {
+    font-family: "roboto-regular";
     width: 70%;
     height: auto;
     background-image: url('../../../../public/images/book_table_bg.jpg');
- 
+
 }
-    //^ Our Blog
-.card-blog{
+
+//^ Our Blog
+.card-blog {
     width: 80%;
-} 
-.para-blog{
+}
+
+.para-blog {
     font-size: 13px;
 }
-.redp-blog{
+
+.redp-blog {
     width: 310px;
 }
-.numbers{
+
+.numbers {
     font-weight: bold;
     font-size: 20px;
 }
+
 //& CLIENT Testimonials
-.client{
+.client {
     background-image: url('../../../../public/images/testimonials_background.jpg');
     background-position: center;
     background-size: cover;
     background-color: rgba(10, 9, 9, 0.884);
     background-blend-mode: darken;
 }
-.card-client{
-    width: 40% ;
+
+.card-client {
+    width: 40%;
 }
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .card-client {
+        width: 60%;
+    }
+
+    //? OUR Contact
+    .contact-card {
+        width: 40%;
+    }
+}
+
 //& OUR Contact
-.contact-card{
-    width:30%;
+.contact-card {
+    width: 55%;
 }
-.text-contact{
+
+.text-contact {
     font-size: 14px;
 }

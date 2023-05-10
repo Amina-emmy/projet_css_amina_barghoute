@@ -11046,8 +11046,16 @@ header nav a:hover {
   width: 40%;
 }
 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .card-client {
+    width: 60%;
+  }
+  .contact-card {
+    width: 40%;
+  }
+}
 .contact-card {
-  width: 30%;
+  width: 55%;
 }
 
 .text-contact {
@@ -11078,6 +11086,12 @@ footer {
 .div-ftr {
   height: 12vh;
   max-width: 100vw;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .part-ftr {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
