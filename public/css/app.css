@@ -10942,16 +10942,12 @@ header nav a:hover {
 }
 
 .deco-bottom-header {
-  margin-top: 115px;
+  position: relative;
+  bottom: -6.8rem;
   background-image: url("../../../../public/images/bottom_decoration_img.png");
   height: 2vh;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .deco-bottom-header {
-    margin-top: 78px;
-  }
-}
 .bg-petitdessin {
   background-image: url("../../../../public/images/main_bg.jpg");
   height: auto;
@@ -10993,7 +10989,22 @@ header nav a:hover {
   line-height: 35px;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+.menuText {
+  width: 380px;
+  line-height: 14px;
+}
+.menuText p {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.menuText span {
+  font-size: 14px;
+}
+.menuText b {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
   .our-1 {
     padding-top: 60px;
     font-size: 25px;
@@ -11032,6 +11043,15 @@ header nav a:hover {
 .numbers {
   font-weight: bold;
   font-size: 20px;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+  top: 46%;
 }
 
 .client {
@@ -11088,7 +11108,7 @@ footer {
   max-width: 100vw;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .part-ftr {
     width: 50%;
   }

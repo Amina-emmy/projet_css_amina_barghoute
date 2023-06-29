@@ -32,14 +32,20 @@ header{
     font-size: 13px;
     font-family: "roboto-regular";
 }
+
 //! the header's bottom decoration
 .deco-bottom-header{
-    margin-top:115px;
+    position: relative;
+    bottom: -6.8rem;
     background-image: url('../../../../public/images/bottom_decoration_img.png');
     height: 2vh;  
 }
-@media screen and (min-width:426px) and (max-width:768px) {
-    .deco-bottom-header{
-        margin-top:78px;
-    }
+
+//^ version tablet
+@media (min-width:768px) and (max-width:1023px) {
+
+}
+
+//^ version mobile
+@media ( min-width:375px ) and (max-width:425px){
 }
