@@ -10922,6 +10922,9 @@ header nav a:hover {
   background-color: #B02939;
   margin: 0;
 }
+header .MenuBr {
+  display: none;
+}
 
 .header-text {
   line-height: 65px;
@@ -10941,13 +10944,14 @@ header nav a:hover {
   font-family: "roboto-regular";
 }
 
-.deco-bottom-header {
-  position: relative;
-  bottom: -6.8rem;
-  background-image: url("../../../../public/images/bottom_decoration_img.png");
-  height: 2vh;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navTab {
+    display: none;
+  }
+  .MenuBr {
+    display: flex;
+  }
 }
-
 .bg-petitdessin {
   background-image: url("../../../../public/images/main_bg.jpg");
   height: auto;

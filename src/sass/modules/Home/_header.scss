@@ -14,6 +14,9 @@ header{
             margin: 0;
         }
     }
+    .MenuBr{
+        display: none;
+    }
 }
 //& the text in the middle of the header + buttons
 .header-text{
@@ -33,17 +36,22 @@ header{
     font-family: "roboto-regular";
 }
 
-//! the header's bottom decoration
-.deco-bottom-header{
-    position: relative;
-    bottom: -6.8rem;
-    background-image: url('../../../../public/images/bottom_decoration_img.png');
-    height: 2vh;  
-}
+//! the header's bottom decoration ==> needs fixing , probaly position is the solution but it doesn't work :(
+// .deco-bottom-header{
+//     position: relative;
+//     bottom: -6.8rem;
+//     background-image: url('../../../../public/images/bottom_decoration_img.png');
+//     height: 2vh;  
+// }
 
 //^ version tablet
 @media (min-width:768px) and (max-width:1023px) {
-
+    .navTab{
+        display: none;
+    }
+    .MenuBr{
+        display: flex;
+    }
 }
 
 //^ version mobile
